@@ -1,6 +1,6 @@
 ---
 - name: Simulate deployment with rollback
-  hosts: rollback_targets
+  hosts: all
   gather_facts: false
 
   vars:
