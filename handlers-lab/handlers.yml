@@ -5,7 +5,7 @@
 
   vars:
     demo_service_name: training-service
-    demo_service_port: {{ port_num }}
+    demo_service_port: "{{ port_num }}"
     demo_environment: lab
 
   tasks:
